@@ -1,3 +1,3 @@
 module.exports = function hello(){
-    return  "hello world of github hooks"
+    return  "We are about the make the new release for greet"
 }
