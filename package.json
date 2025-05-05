@@ -4,15 +4,22 @@
   "description": "",
   "main": "index.js",
   "release":{
-    "branches": ["master"]
+    "branches": ["master"],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  },,
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "semantic-release": "^24.2.3"
-  }
+  },
+  
 }
